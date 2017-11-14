@@ -7,14 +7,17 @@ title: zlq4863947
 subtitle:
 description:
 author: zlq4863947
-language: zh-cn
+language: zh-Hans
 timezone:
+
+# Custom your favicon.ico in `site/source`
+favicon: /favicon.ico
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://zlq4863947.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: blog/:year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -25,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -72,7 +75,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: even
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
